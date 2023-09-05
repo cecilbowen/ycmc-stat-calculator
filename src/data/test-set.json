@@ -1,0 +1,236 @@
+[
+	{
+		"attribute": "Light",
+		"aeRate": [122, 100, 114],
+		"base": [198, 102, 29],
+		"final": [198, 97, 66],
+		"attributes": ["Light", "Earth", "", "", "Light", "Dark", "Wind"],
+		"strengths": [100, 30, 0, 0, 10, 26, 20],
+		"grid": [
+			0, 0, 0, 0, 0, 0, 0,
+			0, 0, 0, 0, 1, -1, 0,
+			1, 0, 0, 0, 1, 0, 0
+		]
+	},
+	{
+		"attribute": "Water",
+		"aeRate": [152, 144, 100],
+		"base": [242, 110, 58],
+		"final": [242, 104, 53],
+		"attributes": ["Light", "Earth", "", "", "Light", "Dark", "Wind"],
+		"strengths": [100, 30, 0, 0, 10, 26, 20],
+		"grid": [
+			0, 0, 0, 0, 0, 0, 0,
+			0, 0, 0, 0, 1, 0, -1,
+			0, 0, 0, 0, 0, 0, -1
+		]
+	},
+	{
+		"attribute": "Wind",
+		"aeRate": [100, 100, 102],
+		"base": [178, 122, 42],
+		"final": [178, 137, 45],
+		"attributes": ["Light", "Earth", "", "", "Light", "Dark", "Wind"],
+		"strengths": [100, 30, 0, 0, 10, 26, 20],
+		"grid": [
+			0, 0, 0, 0, 0, 0, 0,
+			0, 0, 0, 0, 0, 1, 1,
+			0, 0, 0, 0, 0, 0, 1
+		]
+	},
+	{
+		"attribute": "Thunder",
+		"aeRate": [109, 89, 108],
+		"base": [150, 149, 22],
+		"final": [150, 144, 23],
+		"attributes": ["Light", "Light", "", "", "Light", "Dark", "Wind"],
+		"strengths": [100, 20, 0, 0, 10, 26, 20],
+		"grid": [
+			0, 0, 0, 0, 0, 0, 0,
+			0, 0, 0, 0, -1, 0, 0,
+			0, 0, 0, 0, -1, 1, 0
+		]
+	},
+	{
+		"attribute": "Dark",
+		"aeRate": [105, 101, 91],
+		"base": [226, 113, 20],
+		"final": [107, 118, 21],
+		"attributes": ["Light", "", "", "", "Light", "Dark", "Wind"],
+		"strengths": [100, 0, 0, 0, 10, 26, 20],
+		"grid": [
+			-1, 0, 0, 0, 0, 0, 0,
+			0, 0, 0, 0, -1, 1, 0,
+			0, 0, 0, 0, -1, 1, 0
+		]
+	},
+	{
+		"attribute": "Earth",
+		"aeRate": [124, 109, 100],
+		"base": [347, 145, 5],
+		"final": [347, 188, 12],
+		"attributes": ["Light", "Light", "Earth", "", "Light", "Dark", "Wind"],
+		"strengths": [100, 10, 30, 0, 10, 26, 20],
+		"grid": [
+			0, 0, 0, 0, 0, 0, 0,
+			0, 0, 1, 0, 0, 1, 0,
+			1, 0, 1, 0, -1, 0, 0
+		]
+	},
+	{
+		"attribute": "Dark",
+		"aeRate": [100, 100, 96],
+		"base": [238, 117, 26],
+		"final": [238, 169, 27],
+		"attributes": ["Dark", "Earth", "", "", "Light", "Dark", "Wind"],
+		"strengths": [40, 30, 0, 0, 10, 26, 20],
+		"grid": [
+			0, 0, 0, 0, 0, 0, 0,
+			1, 0, 0, 0, -1, 1, 0,
+			0, 0, 0, 0, -1, 1, 0
+		]
+	},
+	{
+		"attribute": "Earth",
+		"aeRate": [100, 100, 100],
+		"base": [246, 127, 13],
+		"final": [196, 144, 12],
+		"attributes": ["Dark", "", "", "", "Light", "Dark", "Wind"],
+		"strengths": [40, 0, 0, 0, 10, 26, 20],
+		"grid": [
+			-1, 0, 0, 0, 0, 0, 0,
+			0, 0, 0, 0, 0, 1, 0,
+			0, 0, 0, 0, -1, 0, 0
+		]
+	},
+	{
+		"attribute": "Wind",
+		"aeRate": [100, 100, 118],
+		"base": [165, 137, 47],
+		"final": [165, 156, 50],
+		"attributes": ["Dark", "", "", "", "Light", "Dark", "Wind"],
+		"strengths": [40, 0, 0, 0, 10, 26, 20],
+		"grid": [
+			0, 0, 0, 0, 0, 0, 0,
+			0, 0, 0, 0, 0, 1, 1,
+			0, 0, 0, 0, 0, 0, 1
+		]
+	},
+	{
+		"attribute": "Fire",
+		"aeRate": [81, 95, 100],
+		"base": [180, 155, 12],
+		"final": [180, 177, 12],
+		"attributes": ["Fire", "Earth", "", "", "Light", "Dark", "Wind"],
+		"strengths": [20, 5, 0, 0, 16, 5, 5],
+		"grid": [
+			0, 0, 0, 0, 0, 0, 0,
+			1, -1, 0, 0, 0, 0, 0,
+			0, 0, 0, 0, 0, 0, 0
+		]
+	},
+	{
+		"attribute": "Wood",
+		"aeRate": [100, 100, 100],
+		"base": [165, 110, 22],
+		"final": [165, 98, 19],
+		"attributes": ["Fire", "Earth", "Wood", "", "Light", "Dark", "Wind"],
+		"strengths": [20, 5, 5, 0, 16, 5, 5],
+		"grid": [
+			0, 0, 0, 0, 0, 0, 0,
+			-1, 0, 1, 0, -1, 1, 0,
+			-1, 0, 1, 0, -1, 0, 0
+		]
+	},
+	{
+		"attribute": "Wind",
+		"aeRate": [100, 100, 101],
+		"base": [165, 121, 40],
+		"final": [165, 150, 41],
+		"attributes": ["Fire", "Earth", "", "", "Light", "Dark", "Wind"],
+		"strengths": [20, 5, 0, 0, 16, 5, 5],
+		"grid": [
+			0, 0, 0, 0, 0, 0, 0,
+			1, 0, 0, 0, 0, 1, 1,
+			0, 0, 0, 0, 0, 0, 1
+		]
+	},
+	{
+		"attribute": "Fire",
+		"aeRate": [95, 94, 120],
+		"base": [174, 153, 10],
+		"final": [174, 171, 10],
+		"attributes": ["Fire", "Earth", "Wood", "", "Light", "Dark", "Wind"],
+		"strengths": [15, 5, 5, 0, 16, 5, 5],
+		"grid": [
+			0, 0, 0, 0, 0, 0, 0,
+			1, -1, 0, 0, 0, 0, 0,
+			0, 0, 0, 0, 0, 0, 0
+		]
+	},
+	{
+		"attribute": "Light",
+		"aeRate": [186, 120, 155],
+		"base": [410, 140, 46],
+		"final": [410, 140, 132],
+		"attributes": ["Light", "", "", "", "", "", ""],
+		"strengths": [100, 0, 0, 0, 0, 0, 0],
+		"grid": [
+			0, 0, 0, 0, 0, 0, 0,
+			0, 0, 0, 0, 0, 0, 0,
+			1, 0, 0, 0, 0, 0, 0
+		]
+	},
+	{
+		"attribute": "Water",
+		"aeRate": [120, 93, 110],
+		"base": [180, 111, 45],
+		"final": [180, 110, 55],
+		"attributes": ["Water", "Water", "Earth", "Wood", "Light", "Dark", "Wind"],
+		"strengths": [20, 10, 30, 10, 20, 36, 18],
+		"grid": [
+			0, 0, 0, 0, 0, 0, 0,
+			0, 1, 0, -1, 1, 0, -1,
+			1, 1, 0, 0, 0, 0, -1
+		]
+	},
+	{
+		"attribute": "Water",
+		"aeRate": [100, 100, 100],
+		"base": [186, 115, 40],
+		"final": [186, 130, 51],
+		"attributes": ["Water", "Water", "", "", "Light", "Dark", "Wind"],
+		"strengths": [20, 30, 0, 0, 20, 36, 18],
+		"grid": [
+			0, 0, 0, 0, 0, 0, 0,
+			0, 1, 0, 0, 1, 0, -1,
+			1, 1, 0, 0, 0, 0, -1
+		]
+	},
+	{
+		"attribute": "Earth",
+		"aeRate": [100, 100, 100],
+		"base": [250, 132, 8],
+		"final": [250, 176, 9],
+		"attributes": ["Water", "Earth", "", "", "Light", "Dark", "Wind"],
+		"strengths": [20, 30, 0, 0, 20, 36, 18],
+		"grid": [
+			0, 0, 0, 0, 0, 0, 0,
+			0, 1, 0, 0, 0, 1, 0,
+			0, 1, 0, 0, -1, 0, 0
+		]
+	},
+	{
+		"attribute": "Wind",
+		"aeRate": [141, 115, 135],
+		"base": [199, 139, 60],
+		"final": [199, 165, 64],
+		"attributes": ["Light", "Earth", "", "", "Light", "Dark", "Wind"],
+		"strengths": [100, 30, 0, 0, 20, 36, 18],
+		"grid": [
+			0, 0, 0, 0, 0, 0, 0,
+			0, 0, 0, 0, 0, 1, 1,
+			0, 0, 0, 0, 0, 0, 1
+		]
+	}
+]

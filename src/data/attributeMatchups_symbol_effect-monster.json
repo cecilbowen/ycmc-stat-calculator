@@ -1,0 +1,42 @@
+{
+  "Light": {
+    "Light": "DF +",
+    "Dark": "PP -",
+    "Earth": "DF +"
+  },
+  "Dark": {
+    "Dark": "AT +",
+    "Earth": "PP -",
+    "Thunder": "DF +"
+  },
+  "Fire": {
+    "Fire": "AT +",
+    "Wind": "AT +",
+    "Wood": "AT DF -"
+  },
+  "Water": {
+    "Fire": "AT DF -",
+    "Water": "DF +",
+    "Wood": "DF +"
+  },
+  "Earth": {
+    "Light": "AT +",
+    "Earth": "PP +",
+    "Thunder": "AT DF -"
+  },
+  "Wind": {
+    "Fire": "DF +",
+    "Water": "DF -",
+    "Wind": "DF +"
+  },
+  "Wood": {
+    "Water": "AT +",
+    "Wind": "DF -",
+    "Wood": "AT DF +"
+  },
+  "Thunder": {
+    "Light": "PP -",
+    "Dark": "AT +",
+    "Thunder": "AT +"
+  }
+}

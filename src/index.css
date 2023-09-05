@@ -11,3 +11,286 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dataInput {
+  width: 3em;
+}
+
+.dataInputFinal {
+  width: 6em;
+  transform: scale(0.8);
+}
+
+.dataLabel {
+  width: 5em;
+  min-width: 5em;
+}
+
+.statBox {
+  width: 30px;
+  border: none
+}
+
+.green {
+  background-color: #89ed53
+}
+
+.symbol {
+  background-color: #cadffc
+}
+
+.landForm {
+  background-color: #f7c11e
+}
+
+.map {
+  background-color: #1cc0ef
+}
+
+.title {
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 14px;
+}
+
+.breathe {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.monsterCellLL {
+  border-left: 1px dashed;
+  border-top: 1px dashed;
+  border-bottom: 1px dashed;
+  border-right: none;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.monsterCellRR {
+  border-right: 1px dashed;
+  border-top: 1px dashed;
+  border-bottom: 1px dashed;
+  border-left: none;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.bbd {
+  border-radius: 10px;
+}
+
+.bd-tl {
+  border-top-left-radius: 6px;
+}
+
+.bd-tr {
+  border-top-right-radius: 6px;
+}
+
+.bd-br {
+  border-bottom-right-radius: 6px;
+}
+
+.bd-bl {
+  border-bottom-left-radius: 6px;
+}
+
+.pd {
+  padding: 10px;
+}
+
+.info {
+  background-color: #77c69b;
+}
+
+.info2 {
+  background-color: #77c69b7d;
+}
+
+.symbol {
+  background-color: #e8756f;
+}
+
+.land {
+  background-color: #d770c8;
+}
+
+.map {
+  background-color: #a6a19d;
+}
+
+.final {
+  background-color: #725ae41f;
+  border-style: groove;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  text-align: center;
+  vertical-align: middle;
+  border-style: none;
+  font-family: monospace;
+  cursor: pointer;
+  background-color: transparent;
+  font-family: yugi;
+  font-size: 22px;
+}
+
+td {
+  width: 6em;
+}
+
+img {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.Red-Arrow {
+  background: linear-gradient(270deg, #df2d2d, #e1b0b0, #5c1e1e);
+  background-size: 600% 600%;
+
+  -webkit-animation: RedArrow 5s ease infinite;
+  -moz-animation: RedArrow 5s ease infinite;
+  animation: RedArrow 5s ease infinite;
+}
+
+
+@-webkit-keyframes RedArrow {
+  0% {
+    background-position: 0% 51%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 51%
+  }
+}
+
+@-moz-keyframes RedArrow {
+  0% {
+    background-position: 0% 51%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 51%
+  }
+}
+
+@keyframes RedArrow {
+  0% {
+    background-position: 0% 51%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 51%
+  }
+}
+
+.Green-Arrow {
+  background: linear-gradient(270deg, #1eae29, #9be47f, #1a5e16);
+  background-size: 600% 600%;
+
+  -webkit-animation: GreenArrow 5s ease infinite;
+  -moz-animation: GreenArrow 5s ease infinite;
+  animation: GreenArrow 5s ease infinite;
+}
+
+@-webkit-keyframes GreenArrow {
+  0% {
+    background-position: 0% 51%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 51%
+  }
+}
+
+@-moz-keyframes GreenArrow {
+  0% {
+    background-position: 0% 51%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 51%
+  }
+}
+
+@keyframes GreenArrow {
+  0% {
+    background-position: 0% 51%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 51%
+  }
+}
+
+@font-face {
+  font-family: 'yugi';
+  src: url('../public/fonts/Matrix-Bold.ttf') format('truetype');
+  /* Additional font properties can be defined here */
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.adornLabel p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.adorn p {
+  font-size: 12px;
+}
+
+.correct p {
+  color: darkgreen;
+}
+
+.wrong p {
+  color: crimson;
+}

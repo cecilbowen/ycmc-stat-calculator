@@ -1,0 +1,781 @@
+[
+  {
+    "attribute": "Light",
+    "aeRate": [
+      122,
+      100,
+      114
+    ],
+    "base": [
+      198,
+      102,
+      29
+    ],
+    "final": [
+      198,
+      97,
+      66
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Earth",
+          "strength": 30
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Dark",
+          "strength": 26
+        },
+        {
+          "attribute": "Wind",
+          "strength": 20
+        }
+      ]
+    }
+  },
+  {
+    "attribute": "Water",
+    "aeRate": [
+      152,
+      144,
+      100
+    ],
+    "base": [
+      242,
+      110,
+      58
+    ],
+    "final": [
+      242,
+      104,
+      53
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Earth",
+          "strength": 30
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Dark",
+          "strength": 26
+        },
+        {
+          "attribute": "Wind",
+          "strength": 20
+        }
+      ]
+    }
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      100,
+      100,
+      102
+    ],
+    "base": [
+      178,
+      122,
+      42
+    ],
+    "final": [
+      178,
+      137,
+      45
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Earth",
+          "strength": 30
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Dark",
+          "strength": 26
+        },
+        {
+          "attribute": "Wind",
+          "strength": 20
+        }
+      ]
+    }
+  },
+  {
+    "attribute": "Thunder",
+    "aeRate": [
+      109,
+      89,
+      108
+    ],
+    "base": [
+      150,
+      149,
+      22
+    ],
+    "final": [
+      150,
+      144,
+      23
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Light",
+          "strength": 20
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Dark",
+          "strength": 26
+        },
+        {
+          "attribute": "Wind",
+          "strength": 20
+        }
+      ]
+    }
+  },
+  {
+    "attribute": "Dark",
+    "aeRate": [
+      105,
+      101,
+      91
+    ],
+    "base": [
+      226,
+      113,
+      20
+    ],
+    "final": [
+      107,
+      118,
+      21
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Dark",
+          "strength": 26
+        },
+        {
+          "attribute": "Wind",
+          "strength": 20
+        }
+      ]
+    }
+  },
+  {
+    "attribute": "Earth",
+    "aeRate": [
+      124,
+      109,
+      100
+    ],
+    "base": [
+      347,
+      145,
+      5
+    ],
+    "final": [
+      347,
+      188,
+      12
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Earth",
+          "strength": 30
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Dark",
+          "strength": 26
+        },
+        {
+          "attribute": "Wind",
+          "strength": 20
+        }
+      ]
+    }
+  },
+  {
+    "attribute": "Dark",
+    "aeRate": [
+      100,
+      100,
+      96
+    ],
+    "base": [
+      238,
+      117,
+      26
+    ],
+    "final": [
+      238,
+      169,
+      27
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Dark",
+        "strength": 40
+      },
+      "landForm": [
+        {
+          "attribute": "Earth",
+          "strength": 30
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Dark",
+          "strength": 26
+        },
+        {
+          "attribute": "Wind",
+          "strength": 20
+        }
+      ]
+    }
+  },
+  {
+    "attribute": "Earth",
+    "aeRate": [
+      100,
+      100,
+      100
+    ],
+    "base": [
+      246,
+      127,
+      13
+    ],
+    "final": [
+      196,
+      144,
+      12
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Dark",
+        "strength": 40
+      },
+      "landForm": [],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Dark",
+          "strength": 26
+        },
+        {
+          "attribute": "Wind",
+          "strength": 20
+        }
+      ]
+    }
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      100,
+      100,
+      118
+    ],
+    "base": [
+      165,
+      137,
+      47
+    ],
+    "final": [
+      165,
+      156,
+      50
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Dark",
+        "strength": 40
+      },
+      "landForm": [],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Dark",
+          "strength": 26
+        },
+        {
+          "attribute": "Wind",
+          "strength": 20
+        }
+      ]
+    }
+  },
+  {
+    "attribute": "Fire",
+    "aeRate": [
+      81,
+      95,
+      100
+    ],
+    "base": [
+      180,
+      155,
+      12
+    ],
+    "final": [
+      180,
+      177,
+      12
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Fire",
+        "strength": 20
+      },
+      "landForm": [
+        {
+          "attribute": "Earth",
+          "strength": 5
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 16
+        },
+        {
+          "attribute": "Dark",
+          "strength": 5
+        },
+        {
+          "attribute": "Wind",
+          "strength": 5
+        }
+      ]
+    }
+  },
+  {
+    "attribute": "Wood",
+    "aeRate": [
+      100,
+      100,
+      100
+    ],
+    "base": [
+      165,
+      110,
+      22
+    ],
+    "final": [
+      165,
+      98,
+      19
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Fire",
+        "strength": 20
+      },
+      "landForm": [
+        {
+          "attribute": "Earth",
+          "strength": 5
+        },
+        {
+          "attribute": "Wood",
+          "strength": 5
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 16
+        },
+        {
+          "attribute": "Dark",
+          "strength": 5
+        },
+        {
+          "attribute": "Wind",
+          "strength": 5
+        }
+      ]
+    }
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      100,
+      100,
+      101
+    ],
+    "base": [
+      165,
+      121,
+      40
+    ],
+    "final": [
+      165,
+      150,
+      41
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Fire",
+        "strength": 20
+      },
+      "landForm": [
+        {
+          "attribute": "Earth",
+          "strength": 5
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 16
+        },
+        {
+          "attribute": "Dark",
+          "strength": 5
+        },
+        {
+          "attribute": "Wind",
+          "strength": 5
+        }
+      ]
+    }
+  },
+  {
+    "attribute": "Fire",
+    "aeRate": [
+      95,
+      94,
+      120
+    ],
+    "base": [
+      174,
+      153,
+      10
+    ],
+    "final": [
+      174,
+      171,
+      10
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Fire",
+        "strength": 15
+      },
+      "landForm": [
+        {
+          "attribute": "Earth",
+          "strength": 5
+        },
+        {
+          "attribute": "Wood",
+          "strength": 5
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 16
+        },
+        {
+          "attribute": "Dark",
+          "strength": 5
+        },
+        {
+          "attribute": "Wind",
+          "strength": 5
+        }
+      ]
+    }
+  },
+  {
+    "attribute": "Light",
+    "aeRate": [
+      186,
+      120,
+      155
+    ],
+    "base": [
+      410,
+      140,
+      46
+    ],
+    "final": [
+      410,
+      140,
+      132
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [],
+      "map": []
+    }
+  },
+  {
+    "attribute": "Water",
+    "aeRate": [
+      120,
+      93,
+      110
+    ],
+    "base": [
+      180,
+      111,
+      45
+    ],
+    "final": [
+      180,
+      110,
+      55
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Water",
+        "strength": 20
+      },
+      "landForm": [
+        {
+          "attribute": "Water",
+          "strength": 10
+        },
+        {
+          "attribute": "Earth",
+          "strength": 30
+        },
+        {
+          "attribute": "Wood",
+          "strength": 10
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 20
+        },
+        {
+          "attribute": "Dark",
+          "strength": 36
+        },
+        {
+          "attribute": "Wind",
+          "strength": 18
+        }
+      ]
+    }
+  },
+  {
+    "attribute": "Water",
+    "aeRate": [
+      100,
+      100,
+      100
+    ],
+    "base": [
+      186,
+      115,
+      40
+    ],
+    "final": [
+      186,
+      130,
+      51
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Water",
+        "strength": 20
+      },
+      "landForm": [
+        {
+          "attribute": "Water",
+          "strength": 30
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 20
+        },
+        {
+          "attribute": "Dark",
+          "strength": 36
+        },
+        {
+          "attribute": "Wind",
+          "strength": 18
+        }
+      ]
+    }
+  },
+  {
+    "attribute": "Earth",
+    "aeRate": [
+      100,
+      100,
+      100
+    ],
+    "base": [
+      250,
+      132,
+      8
+    ],
+    "final": [
+      250,
+      176,
+      9
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Water",
+        "strength": 20
+      },
+      "landForm": [
+        {
+          "attribute": "Earth",
+          "strength": 30
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 20
+        },
+        {
+          "attribute": "Dark",
+          "strength": 36
+        },
+        {
+          "attribute": "Wind",
+          "strength": 18
+        }
+      ]
+    }
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      141,
+      115,
+      135
+    ],
+    "base": [
+      199,
+      139,
+      60
+    ],
+    "final": [
+      199,
+      165,
+      64
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Earth",
+          "strength": 30
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 20
+        },
+        {
+          "attribute": "Dark",
+          "strength": 36
+        },
+        {
+          "attribute": "Wind",
+          "strength": 18
+        }
+      ]
+    }
+  }
+]
