@@ -124,13 +124,13 @@ const StatTable = ({ compact, onCalculate, dataToLoad, onDataChanged }) => {
     ]);
 
     useEffect(() => {
-        const loadedGrid = generateGridFromAttributes(monsterAttribute, uiAttributes);
+        const loadedGrid = generateGridFromAttributes(monsterAttribute, uiAttributes, [symbolAE, landAE, mapAE]);
         setRows({
             ppRow: loadedGrid.slice(0, 8),
             atRow: loadedGrid.slice(8, 16),
             dfRow: loadedGrid.slice(16)
         });
-    }, [uiAttributes, monsterAttribute]);
+    }, [uiAttributes, monsterAttribute, symbolAE, landAE, mapAE]);
 
     const prepareDataForCalculation = () => {
         return {
@@ -398,6 +398,7 @@ const StatTable = ({ compact, onCalculate, dataToLoad, onDataChanged }) => {
                         className={`dataInput ${cls}`}
                         type="number"
                         min={0}
+                        max={100}
                         value={strength}
                         data-var={val}
                         data-index={numAt - 1}

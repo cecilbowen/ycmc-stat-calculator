@@ -777,5 +777,3790 @@
         }
       ]
     }
+  },
+  {
+    "attribute": "Light",
+    "aeRate": [
+      134,
+      100,
+      131
+    ],
+    "base": [
+      314,
+      108,
+      40
+    ],
+    "final": [
+      314,
+      108,
+      98
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Earth",
+          "strength": 30
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Dark",
+          "strength": 26
+        },
+        {
+          "attribute": "Wood",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "Dark Witch"
+  },
+  {
+    "attribute": "Light",
+    "aeRate": [
+      122,
+      100,
+      114
+    ],
+    "base": [
+      198,
+      102,
+      29
+    ],
+    "final": [
+      198,
+      103,
+      68
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Earth",
+          "strength": 30
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Dark",
+          "strength": 26
+        },
+        {
+          "attribute": "Wind",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "Happy Lover"
+  },
+  {
+    "attribute": "Light",
+    "aeRate": [
+      105,
+      100,
+      102
+    ],
+    "base": [
+      238,
+      100,
+      25
+    ],
+    "final": [
+      238,
+      100,
+      55
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Earth",
+          "strength": 30
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Dark",
+          "strength": 26
+        },
+        {
+          "attribute": "Wood",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "B - Time Wizard"
+  },
+  {
+    "attribute": "Light",
+    "aeRate": [
+      166,
+      100,
+      129
+    ],
+    "base": [
+      255,
+      102,
+      34
+    ],
+    "final": [
+      255,
+      102,
+      95
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Earth",
+          "strength": 30
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Dark",
+          "strength": 26
+        },
+        {
+          "attribute": "Wood",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "B - Happy Lover 2"
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      100,
+      100,
+      102
+    ],
+    "base": [
+      178,
+      122,
+      42
+    ],
+    "final": [
+      178,
+      127,
+      42
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Earth",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 5
+        },
+        {
+          "attribute": "Dark",
+          "strength": 14
+        },
+        {
+          "attribute": "Wood",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "C - Petit Dragon"
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      141,
+      115,
+      132
+    ],
+    "base": [
+      196,
+      135,
+      54
+    ],
+    "final": [
+      196,
+      142,
+      54
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Earth",
+          "strength": 30
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Dark",
+          "strength": 14
+        },
+        {
+          "attribute": "Wood",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "C - Harpie Lady"
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      119,
+      107,
+      115
+    ],
+    "base": [
+      187,
+      127,
+      50
+    ],
+    "final": [
+      187,
+      133,
+      50
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "",
+          "strength": 10
+        },
+        {
+          "attribute": "",
+          "strength": 14
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "Dark",
+          "strength": 14
+        },
+        {
+          "attribute": "Thunder",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "C - Wicked"
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      100,
+      100,
+      105
+    ],
+    "base": [
+      180,
+      125,
+      43
+    ],
+    "final": [
+      180,
+      130,
+      43
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Earth",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 5
+        },
+        {
+          "attribute": "Dark",
+          "strength": 14
+        },
+        {
+          "attribute": "Wood",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "C - Kurama"
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      109,
+      103,
+      133
+    ],
+    "base": [
+      209,
+      156,
+      63
+    ],
+    "final": [
+      209,
+      164,
+      63
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "",
+          "strength": 10
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 5
+        },
+        {
+          "attribute": "Dark",
+          "strength": 14
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "C - Kazejin"
+  },
+  {
+    "attribute": "Thunder",
+    "aeRate": [
+      100,
+      117,
+      132
+    ],
+    "base": [
+      198,
+      178,
+      42
+    ],
+    "final": [
+      198,
+      175,
+      44
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Light",
+          "strength": 10
+        },
+        {
+          "attribute": "Earth",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 9
+        },
+        {
+          "attribute": "Dark",
+          "strength": 14
+        },
+        {
+          "attribute": "Wood",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "Sanga"
+  },
+  {
+    "attribute": "Wood",
+    "aeRate": [
+      105,
+      100,
+      100
+    ],
+    "base": [
+      165,
+      110,
+      23
+    ],
+    "final": [
+      165,
+      127,
+      27
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Wood",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "PetMothGuru"
+  },
+  {
+    "attribute": "Wood",
+    "aeRate": [
+      100,
+      100,
+      100
+    ],
+    "base": [
+      280,
+      150,
+      50
+    ],
+    "final": [
+      280,
+      173,
+      58
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Wood",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "PUGM2"
+  },
+  {
+    "attribute": "Light",
+    "aeRate": [
+      187,
+      130,
+      157
+    ],
+    "base": [
+      448,
+      155,
+      48
+    ],
+    "final": [
+      448,
+      186,
+      138
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Fire",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "BEUGGuru"
+  },
+  {
+    "attribute": "Light",
+    "aeRate": [
+      166,
+      100,
+      129
+    ],
+    "base": [
+      255,
+      102,
+      34
+    ],
+    "final": [
+      255,
+      118,
+      91
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Fire",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "HLoveGuru"
+  },
+  {
+    "attribute": "Dark",
+    "aeRate": [
+      100,
+      100,
+      90
+    ],
+    "base": [
+      244,
+      112,
+      23
+    ],
+    "final": [
+      244,
+      213,
+      23
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Dark",
+        "strength": 90
+      },
+      "landForm": [
+        {
+          "attribute": "Water",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "needleball"
+  },
+  {
+    "attribute": "Dark",
+    "aeRate": [
+      100,
+      100,
+      93
+    ],
+    "base": [
+      210,
+      114,
+      22
+    ],
+    "final": [
+      210,
+      217,
+      22
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Dark",
+        "strength": 90
+      },
+      "landForm": [
+        {
+          "attribute": "Water",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "ryukisin_m"
+  },
+  {
+    "attribute": "Dark",
+    "aeRate": [
+      100,
+      100,
+      114
+    ],
+    "base": [
+      305,
+      129,
+      28
+    ],
+    "final": [
+      305,
+      246,
+      23
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Dark",
+        "strength": 90
+      },
+      "landForm": [
+        {
+          "attribute": "Thunder",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "zoa_m"
+  },
+  {
+    "attribute": "Water",
+    "aeRate": [
+      100,
+      96,
+      100
+    ],
+    "base": [
+      216,
+      113,
+      49
+    ],
+    "final": [
+      216,
+      130,
+      57
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Dark",
+        "strength": 90
+      },
+      "landForm": [
+        {
+          "attribute": "Water",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "kani_m"
+  },
+  {
+    "attribute": "Thunder",
+    "aeRate": [
+      100,
+      98,
+      113
+    ],
+    "base": [
+      173,
+      145,
+      24
+    ],
+    "final": [
+      173,
+      167,
+      50
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Dark",
+        "strength": 90
+      },
+      "landForm": [
+        {
+          "attribute": "Thunder",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "bolt_m"
+  },
+  {
+    "attribute": "Fire",
+    "aeRate": [
+      108,
+      105,
+      120
+    ],
+    "base": [
+      174,
+      198,
+      10
+    ],
+    "final": [
+      174,
+      230,
+      12
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Fire",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "firere"
+  },
+  {
+    "attribute": "Fire",
+    "aeRate": [
+      105,
+      114,
+      100
+    ],
+    "base": [
+      214,
+      184,
+      18
+    ],
+    "final": [
+      214,
+      216,
+      22
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Fire",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "flamesw"
+  },
+  {
+    "attribute": "Earth",
+    "aeRate": [
+      124,
+      109,
+      100
+    ],
+    "base": [
+      347,
+      145,
+      5
+    ],
+    "final": [
+      347,
+      169,
+      13
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Earth",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "haniwa"
+  },
+  {
+    "attribute": "Water",
+    "aeRate": [
+      152,
+      144,
+      100
+    ],
+    "base": [
+      242,
+      110,
+      58
+    ],
+    "final": [
+      242,
+      94,
+      58
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Wood",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "sinserp"
+  },
+  {
+    "attribute": "Water",
+    "aeRate": [
+      111,
+      130,
+      100
+    ],
+    "base": [
+      286,
+      129,
+      74
+    ],
+    "final": [
+      286,
+      112,
+      74
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Wood",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "suijin"
+  },
+  {
+    "attribute": "Fire",
+    "aeRate": [
+      105,
+      114,
+      100
+    ],
+    "base": [
+      214,
+      184,
+      18
+    ],
+    "final": [
+      214,
+      226,
+      23
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Fire",
+          "strength": 40
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "flamesw_buff"
+  },
+  {
+    "attribute": "Fire",
+    "aeRate": [
+      108,
+      105,
+      120
+    ],
+    "base": [
+      174,
+      198,
+      10
+    ],
+    "final": [
+      174,
+      240,
+      13
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Fire",
+          "strength": 40
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "firere_buff"
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      119,
+      107,
+      115
+    ],
+    "base": [
+      187,
+      127,
+      50
+    ],
+    "final": [
+      187,
+      127,
+      59
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Dark",
+          "strength": 30
+        },
+        {
+          "attribute": "Fire",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "Thunder",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "WickedGuru"
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      100,
+      100,
+      119
+    ],
+    "base": [
+      199,
+      139,
+      46
+    ],
+    "final": [
+      199,
+      139,
+      53
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Dark",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "Thunder",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "FaithGuru"
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      109,
+      103,
+      133
+    ],
+    "base": [
+      209,
+      156,
+      63
+    ],
+    "final": [
+      209,
+      156,
+      73
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Dark",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "KazeGuru"
+  },
+  {
+    "attribute": "Dark",
+    "aeRate": [
+      111,
+      103,
+      129
+    ],
+    "base": [
+      545,
+      198,
+      40
+    ],
+    "final": [
+      242,
+      198,
+      40
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "Exodia"
+  },
+  {
+    "attribute": "Dark",
+    "aeRate": [
+      105,
+      101,
+      91
+    ],
+    "base": [
+      226,
+      113,
+      20
+    ],
+    "final": [
+      107,
+      113,
+      20
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "Kuriboh"
+  },
+  {
+    "attribute": "Dark",
+    "aeRate": [
+      111,
+      103,
+      129
+    ],
+    "base": [
+      545,
+      198,
+      40
+    ],
+    "final": [
+      242,
+      229,
+      47
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Dark",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "Exodia2"
+  },
+  {
+    "attribute": "Dark",
+    "aeRate": [
+      105,
+      101,
+      91
+    ],
+    "base": [
+      226,
+      113,
+      20
+    ],
+    "final": [
+      107,
+      131,
+      24
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Dark",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "Kuriboh2"
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      119,
+      107,
+      115
+    ],
+    "base": [
+      187,
+      127,
+      50
+    ],
+    "final": [
+      187,
+      148,
+      50
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Fire",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "Thunder",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "WickedGuru2"
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      109,
+      103,
+      133
+    ],
+    "base": [
+      209,
+      156,
+      63
+    ],
+    "final": [
+      209,
+      181,
+      63
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Fire",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "KazeGuru2"
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      100,
+      100,
+      119
+    ],
+    "base": [
+      199,
+      139,
+      46
+    ],
+    "final": [
+      199,
+      160,
+      46
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Fire",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "Thunder",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "FaithGuru2"
+  },
+  {
+    "attribute": "Wood",
+    "aeRate": [
+      100,
+      100,
+      100
+    ],
+    "base": [
+      198,
+      118,
+      30
+    ],
+    "final": [
+      198,
+      149,
+      35
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Wood",
+        "strength": 20
+      },
+      "landForm": [
+        {
+          "attribute": "Water",
+          "strength": 25
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 9
+        },
+        {
+          "attribute": "Dark",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "larvae_weev"
+  },
+  {
+    "attribute": "Wood",
+    "aeRate": [
+      100,
+      100,
+      100
+    ],
+    "base": [
+      233,
+      122,
+      33
+    ],
+    "final": [
+      233,
+      154,
+      39
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Wood",
+        "strength": 20
+      },
+      "landForm": [
+        {
+          "attribute": "Water",
+          "strength": 25
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 9
+        },
+        {
+          "attribute": "Dark",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "roach_weev"
+  },
+  {
+    "attribute": "Water",
+    "aeRate": [
+      100,
+      100,
+      100
+    ],
+    "base": [
+      186,
+      115,
+      40
+    ],
+    "final": [
+      186,
+      156,
+      45
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Wood",
+        "strength": 20
+      },
+      "landForm": [
+        {
+          "attribute": "Water",
+          "strength": 25
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 9
+        },
+        {
+          "attribute": "Dark",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "root_weev"
+  },
+  {
+    "attribute": "Thunder",
+    "aeRate": [
+      100,
+      93,
+      108
+    ],
+    "base": [
+      157,
+      135,
+      26
+    ],
+    "final": [
+      157,
+      147,
+      28
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Wood",
+        "strength": 20
+      },
+      "landForm": [
+        {
+          "attribute": "Water",
+          "strength": 25
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 9
+        },
+        {
+          "attribute": "Dark",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "shove_weev"
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      100,
+      100,
+      110
+    ],
+    "base": [
+      190,
+      138,
+      47
+    ],
+    "final": [
+      190,
+      165,
+      73
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Wind",
+        "strength": 55
+      },
+      "landForm": [
+        {
+          "attribute": "",
+          "strength": 25
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "Dark",
+          "strength": 70
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "twin_ymarik"
+  },
+  {
+    "attribute": "Fire",
+    "aeRate": [
+      90,
+      99,
+      100
+    ],
+    "base": [
+      199,
+      154,
+      13
+    ],
+    "final": [
+      199,
+      154,
+      20
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Wind",
+        "strength": 55
+      },
+      "landForm": [
+        {
+          "attribute": "",
+          "strength": 25
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "Dark",
+          "strength": 70
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "blast_ymarik"
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      100,
+      100,
+      115
+    ],
+    "base": [
+      195,
+      134,
+      45
+    ],
+    "final": [
+      195,
+      161,
+      70
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Wind",
+        "strength": 55
+      },
+      "landForm": [
+        {
+          "attribute": "",
+          "strength": 25
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "Dark",
+          "strength": 70
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "winged_ymarik"
+  },
+  {
+    "attribute": "Fire",
+    "aeRate": [
+      101,
+      111,
+      100
+    ],
+    "base": [
+      211,
+      168,
+      19
+    ],
+    "final": [
+      211,
+      140,
+      30
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Wind",
+        "strength": 55
+      },
+      "landForm": [
+        {
+          "attribute": "Earth",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "Dark",
+          "strength": 70
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "mega_ymarik"
+  },
+  {
+    "attribute": "Dark",
+    "aeRate": [
+      100,
+      100,
+      93
+    ],
+    "base": [
+      210,
+      114,
+      22
+    ],
+    "final": [
+      210,
+      133,
+      26
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Wind",
+        "strength": 55
+      },
+      "landForm": [
+        {
+          "attribute": "Earth",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "Dark",
+          "strength": 70
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "ryu_ymarik"
+  },
+  {
+    "attribute": "Thunder",
+    "aeRate": [
+      100,
+      94,
+      109
+    ],
+    "base": [
+      169,
+      140,
+      23
+    ],
+    "final": [
+      169,
+      120,
+      28
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Wind",
+        "strength": 55
+      },
+      "landForm": [
+        {
+          "attribute": "Earth",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "Dark",
+          "strength": 70
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ]
+    },
+    "name": "darkru_ymarik"
+  },
+  {
+    "attribute": "Fire",
+    "aeRate": [
+      105,
+      114,
+      100
+    ],
+    "base": [
+      214,
+      184,
+      18
+    ],
+    "final": [
+      214,
+      152,
+      18
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Earth",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "flamesw_guru_debuff"
+  },
+  {
+    "attribute": "Fire",
+    "aeRate": [
+      106,
+      118,
+      100
+    ],
+    "base": [
+      220,
+      196,
+      19
+    ],
+    "final": [
+      220,
+      161,
+      19
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Earth",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "firewing_guru_debuff"
+  },
+  {
+    "attribute": "Light",
+    "aeRate": [
+      122,
+      100,
+      114
+    ],
+    "base": [
+      198,
+      102,
+      29
+    ],
+    "final": [
+      198,
+      86,
+      65
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Dark",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 30
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 10
+        },
+        {
+          "attribute": "",
+          "strength": 26
+        },
+        {
+          "attribute": "Wood",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "lover_guru_debuff"
+  },
+  {
+    "attribute": "Light",
+    "aeRate": [
+      187,
+      120,
+      155
+    ],
+    "base": [
+      410,
+      140,
+      46
+    ],
+    "final": [
+      410,
+      114,
+      132
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Dark",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "BEUG_guru_debuff"
+  },
+  {
+    "attribute": "Water",
+    "aeRate": [
+      152,
+      148,
+      100
+    ],
+    "base": [
+      315,
+      129,
+      97
+    ],
+    "final": [
+      315,
+      109,
+      97
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Wood",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "suijin-guru-9"
+  },
+  {
+    "attribute": "Water",
+    "aeRate": [
+      152,
+      148,
+      100
+    ],
+    "base": [
+      315,
+      129,
+      97
+    ],
+    "final": [
+      315,
+      86,
+      64
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Wind",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "suijin-guru-9-wind"
+  },
+  {
+    "attribute": "Water",
+    "aeRate": [
+      152,
+      148,
+      100
+    ],
+    "base": [
+      315,
+      129,
+      97
+    ],
+    "final": [
+      315,
+      158,
+      97
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Light",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "suijin-guru-light"
+  },
+  {
+    "attribute": "Water",
+    "aeRate": [
+      152,
+      148,
+      100
+    ],
+    "base": [
+      315,
+      129,
+      97
+    ],
+    "final": [
+      315,
+      158,
+      119
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Water",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "suijin-guru-water"
+  },
+  {
+    "attribute": "Thunder",
+    "aeRate": [
+      100,
+      118,
+      133
+    ],
+    "base": [
+      200,
+      180,
+      41
+    ],
+    "final": [
+      200,
+      180,
+      49
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Dark",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "twin-thun guru dark"
+  },
+  {
+    "attribute": "Thunder",
+    "aeRate": [
+      100,
+      118,
+      133
+    ],
+    "base": [
+      200,
+      180,
+      41
+    ],
+    "final": [
+      200,
+      212,
+      49
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Thunder",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "twin-thun guru thunder"
+  },
+  {
+    "attribute": "Thunder",
+    "aeRate": [
+      100,
+      118,
+      133
+    ],
+    "base": [
+      200,
+      180,
+      41
+    ],
+    "final": [
+      200,
+      212,
+      41
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Water",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "twin-thun guru water"
+  },
+  {
+    "attribute": "Thunder",
+    "aeRate": [
+      100,
+      118,
+      133
+    ],
+    "base": [
+      200,
+      180,
+      41
+    ],
+    "final": [
+      200,
+      148,
+      41
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Earth",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "twin-thun guru earth"
+  },
+  {
+    "attribute": "Light",
+    "aeRate": [
+      187,
+      130,
+      157
+    ],
+    "base": [
+      448,
+      155,
+      48
+    ],
+    "final": [
+      448,
+      186,
+      148
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Light",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "BEUG_guru_light"
+  },
+  {
+    "attribute": "Light",
+    "aeRate": [
+      187,
+      130,
+      157
+    ],
+    "base": [
+      448,
+      155,
+      48
+    ],
+    "final": [
+      448,
+      124,
+      138
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Dark",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "BEUG_guru_dark"
+  },
+  {
+    "attribute": "Light",
+    "aeRate": [
+      187,
+      130,
+      157
+    ],
+    "base": [
+      448,
+      155,
+      48
+    ],
+    "final": [
+      448,
+      186,
+      138
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Fire",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "BEUG_guru_fire"
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      100,
+      100,
+      130
+    ],
+    "base": [
+      210,
+      158,
+      56
+    ],
+    "final": [
+      210,
+      158,
+      65
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Dark",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "thousand_guru_dark"
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      100,
+      100,
+      130
+    ],
+    "base": [
+      210,
+      158,
+      56
+    ],
+    "final": [
+      210,
+      206,
+      73
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Wind",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "thousand_guru_wind"
+  },
+  {
+    "attribute": "Wind",
+    "aeRate": [
+      100,
+      100,
+      130
+    ],
+    "base": [
+      210,
+      158,
+      56
+    ],
+    "final": [
+      210,
+      182,
+      56
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Water",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "thousand_guru_water"
+  },
+  {
+    "attribute": "Earth",
+    "aeRate": [
+      100,
+      100,
+      100
+    ],
+    "base": [
+      253,
+      126,
+      10
+    ],
+    "final": [
+      227,
+      126,
+      10
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Dark",
+        "strength": 20
+      },
+      "landForm": [
+        {
+          "attribute": "",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "marauder_darksym"
+  },
+  {
+    "attribute": "Thunder",
+    "aeRate": [
+      100,
+      109,
+      124
+    ],
+    "base": [
+      184,
+      162,
+      33
+    ],
+    "final": [
+      184,
+      162,
+      40
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Dark",
+        "strength": 20
+      },
+      "landForm": [
+        {
+          "attribute": "",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 9
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "thunderd_darksym"
+  },
+  {
+    "attribute": "Fire",
+    "aeRate": [
+      134,
+      114,
+      120
+    ],
+    "base": [
+      174,
+      230,
+      10
+    ],
+    "final": [
+      174,
+      207,
+      10
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Wood",
+          "strength": 35
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 56
+        },
+        {
+          "attribute": "Dark",
+          "strength": 10
+        },
+        {
+          "attribute": "Wind",
+          "strength": 50
+        }
+      ]
+    },
+    "name": "fire-reaper-ishizu1"
+  },
+  {
+    "attribute": "Fire",
+    "aeRate": [
+      159,
+      147,
+      100
+    ],
+    "base": [
+      230,
+      300,
+      21
+    ],
+    "final": [
+      230,
+      218,
+      21
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Earth",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 56
+        },
+        {
+          "attribute": "Dark",
+          "strength": 10
+        },
+        {
+          "attribute": "Wind",
+          "strength": 50
+        }
+      ]
+    },
+    "name": "meteor-ishizu1"
+  },
+  {
+    "attribute": "Earth",
+    "aeRate": [
+      100,
+      130,
+      100
+    ],
+    "base": [
+      300,
+      140,
+      12
+    ],
+    "final": [
+      300,
+      140,
+      24
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "",
+          "strength": 10
+        },
+        {
+          "attribute": "",
+          "strength": 30
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Dark",
+          "strength": 50
+        },
+        {
+          "attribute": "",
+          "strength": 26
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "rex_dark_ybakura"
+  },
+  {
+    "attribute": "Earth",
+    "aeRate": [
+      100,
+      130,
+      100
+    ],
+    "base": [
+      300,
+      140,
+      12
+    ],
+    "final": [
+      300,
+      140,
+      23
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "",
+          "strength": 10
+        },
+        {
+          "attribute": "",
+          "strength": 30
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 16
+        },
+        {
+          "attribute": "Dark",
+          "strength": 5
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "rex_dark_joey"
+  },
+  {
+    "attribute": "Earth",
+    "aeRate": [
+      100,
+      130,
+      100
+    ],
+    "base": [
+      300,
+      140,
+      12
+    ],
+    "final": [
+      300,
+      140,
+      24
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "",
+          "strength": 10
+        },
+        {
+          "attribute": "",
+          "strength": 30
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Dark",
+          "strength": 70
+        },
+        {
+          "attribute": "",
+          "strength": 70
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "rex_dark_ymarik1"
+  },
+  {
+    "attribute": "Earth",
+    "aeRate": [
+      109,
+      134,
+      100
+    ],
+    "base": [
+      363,
+      143,
+      12
+    ],
+    "final": [
+      363,
+      172,
+      29
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Earth",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 30
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Dark",
+          "strength": 100
+        },
+        {
+          "attribute": "",
+          "strength": 5
+        },
+        {
+          "attribute": "",
+          "strength": 20
+        }
+      ]
+    },
+    "name": "rex_dark_ymarik1_place-of-dark-max"
+  },
+  {
+    "attribute": "Fire",
+    "aeRate": [
+      134,
+      135,
+      100
+    ],
+    "base": [
+      230,
+      245,
+      21
+    ],
+    "final": [
+      230,
+      282,
+      21
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "",
+          "strength": 30
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 56
+        },
+        {
+          "attribute": "Light",
+          "strength": 40
+        },
+        {
+          "attribute": "Wind",
+          "strength": 30
+        }
+      ]
+    },
+    "name": "meteor-ishizu2"
+  },
+  {
+    "attribute": "Fire",
+    "aeRate": [
+      118,
+      105,
+      120
+    ],
+    "base": [
+      174,
+      198,
+      10
+    ],
+    "final": [
+      174,
+      234,
+      10
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "",
+          "strength": 35
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "",
+          "strength": 56
+        },
+        {
+          "attribute": "Light",
+          "strength": 40
+        },
+        {
+          "attribute": "Wind",
+          "strength": 30
+        }
+      ]
+    },
+    "name": "fire-reaper-ishizu2"
+  },
+  {
+    "attribute": "Dark",
+    "aeRate": [
+      105,
+      101,
+      91
+    ],
+    "base": [
+      226,
+      113,
+      20
+    ],
+    "final": [
+      107,
+      105,
+      22
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Wood",
+          "strength": 55
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 55
+        },
+        {
+          "attribute": "Dark",
+          "strength": 25
+        },
+        {
+          "attribute": "Water",
+          "strength": 15
+        },
+        {
+          "attribute": "Wind",
+          "strength": 35
+        }
+      ]
+    },
+    "name": "kuriboh_peg2_woodbuff"
+  },
+  {
+    "attribute": "Dark",
+    "aeRate": [
+      100,
+      100,
+      123
+    ],
+    "base": [
+      450,
+      190,
+      40
+    ],
+    "final": [
+      225,
+      172,
+      36
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Wood",
+          "strength": 40
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 55
+        },
+        {
+          "attribute": "Dark",
+          "strength": 25
+        },
+        {
+          "attribute": "Water",
+          "strength": 15
+        },
+        {
+          "attribute": "Wind",
+          "strength": 35
+        }
+      ]
+    },
+    "name": "sExodia_peg2_wood"
+  },
+  {
+    "attribute": "Dark",
+    "aeRate": [
+      105,
+      101,
+      126
+    ],
+    "base": [
+      495,
+      192,
+      40
+    ],
+    "final": [
+      235,
+      173,
+      37
+    ],
+    "attributes": {
+      "symbol": {
+        "attribute": "Light",
+        "strength": 100
+      },
+      "landForm": [
+        {
+          "attribute": "Wood",
+          "strength": 40
+        },
+        {
+          "attribute": "",
+          "strength": 0
+        }
+      ],
+      "map": [
+        {
+          "attribute": "Light",
+          "strength": 55
+        },
+        {
+          "attribute": "Dark",
+          "strength": 25
+        },
+        {
+          "attribute": "Water",
+          "strength": 15
+        },
+        {
+          "attribute": "Wind",
+          "strength": 35
+        }
+      ]
+    },
+    "name": "sExodia_peg2_wood_lv2"
   }
 ]

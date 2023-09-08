@@ -1,0 +1,29 @@
+discrepancies:
+===============
+wood effect on dark:
+- kuriboh does nothing
+- land form WOOD only seems to affect DARK when landAE is > 100%
+	probably needs to be that landAE + wood strength > 140
+- map DARK doesnt seem to affect EARTH like it says
+	okay not in yami_marik-1, but yes in pegasus-2
+	ACTIVE RANGE: >= 20 but < 50
+- map WIND doesnt seem to affect FIRE like it says
+	ACTIVE RANGE: >= 20
+	no effect on [
+		joey (5), tea(8), mako(10), mai (15)
+	]
+	effect on [
+		// AT+, mod 2
+		bakura (20), shadi-1 (20), kaiba-1 (20), odion (30),
+		ishizu-2(30), pegasus-2 (35)
+		
+		// AT-, mod 10
+		ishizu-1 (50)
+	]
+	speaking of, fire reaper bein a bitch not followin the standard
+		fire reaper LOSES AT on wind on pegasus2 map, weird
+		fire reaper mod is 6 on ishizu1
+	fire gains AT on [kaiba-1, ishizu-2, pegasus-2] (mod 2)
+	fire loses AT on [ishizu-1] (mod 10), fire reaper discrep
+	
+	

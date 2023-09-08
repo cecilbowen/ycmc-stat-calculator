@@ -1,0 +1,148 @@
+{
+  "Water": {
+    "symbol": {
+      "Water": 1,
+      "Wind": 2,
+      "Wood": 1
+    },
+    "landForm": {
+      "Light": 2,
+      "Water": 2,
+      "Wind": 1.3333333333333333,
+      "Wood": 3
+    },
+    "map": {
+      "Light": 4,
+      "Earth": 4,
+      "Wind": 2.65,
+      "Wood": 5
+    }
+  },
+  "Fire": {
+    "symbol": {
+      "Fire": 1,
+      "Water": 2,
+      "Wind": 1
+    },
+    "landForm": {
+      "Fire": 2,
+      "Water": 2,
+      "Earth": 2
+    },
+    "map": {
+      "Water": 4,
+      "Wind": 10
+    }
+  },
+  "Earth": {
+    "symbol": {
+      "Light": 1,
+      "Dark": 2,
+      "Earth": 1
+    },
+    "landForm": {
+      "Earth": 2,
+      "Thunder": 1.3333333333333333
+    },
+    "map": {
+      "Light": 2,
+      "Dark": 2,
+      "Water": 2,
+      "Wood": 4,
+      "Thunder": 2
+    }
+  },
+  "Thunder": {
+    "symbol": {
+      "Dark": 1,
+      "Earth": 2,
+      "Thunder": 1
+    },
+    "landForm": {
+      "Dark": 2,
+      "Water": 2,
+      "Earth": 2,
+      "Thunder": 2
+    },
+    "map": {
+      "Light": 4,
+      "Dark": 4,
+      "Thunder": 4
+    }
+  },
+  "Light": {
+    "symbol": {
+      "Light": 1,
+      "Earth": 1,
+      "Thunder": 2
+    },
+    "landForm": {
+      "Light": 2,
+      "Dark": 2,
+      "Fire": 2,
+      "Thunder": 2
+    },
+    "map": {
+      "Light": 4,
+      "Dark": 4,
+      "Thunder": 4
+    }
+  },
+  "Dark": {
+    "symbol": {
+      "Light": 2,
+      "Dark": 1,
+      "Thunder": 1
+    },
+    "landForm": {
+      "Light": 2,
+      "Dark": 2,
+      "Wood": 6,
+      "Thunder": 2
+    },
+    "map": {
+      "Light": 4,
+      "Dark": 4,
+      "Thunder": 4
+    }
+  },
+  "Wind": {
+    "symbol": {
+      "Fire": 1,
+      "Wind": 1,
+      "Wood": 2
+    },
+    "landForm": {
+      "Dark": 2,
+      "Fire": 2,
+      "Water": 2,
+      "Wind": 1
+    },
+    "map": {
+      "Dark": 4,
+      "Fire": 4,
+      "Water": 4,
+      "Wind": 4
+    }
+  },
+  "Wood": {
+    "symbol": {
+      "Fire": 2,
+      "Water": 1,
+      "Wood": 1
+    },
+    "landForm": {
+      "Fire": 2,
+      "Wood": 2,
+      "Thunder": 2
+    },
+    "map": {
+      "Light": 4,
+      "Dark": 4,
+      "Fire": 4,
+      "Earth": 4,
+      "Wood": 4,
+      "Thunder": 4
+    }
+  }
+}

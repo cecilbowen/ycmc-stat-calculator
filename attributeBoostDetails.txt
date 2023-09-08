@@ -1,0 +1,134 @@
+Water
+	Symbol
+		Water (DF +): 1
+		Wind (DF -): 2
+		Wood (AT +): 1
+
+	Land Form
+		Light (AT +): 2
+		Water (AT DF +): 2
+		Wind (AT DF -): 4/3
+		Wood (AT -): 3
+
+	Map
+		Light (AT +): 4
+		Earth (AT +): 4
+		Wind (AT DF -): 2.65
+		Wood (AT -): 5 ?
+Fire
+	Symbol
+		Fire (AT +): 1
+		Water (AT DF -): 2
+		Wind (DF +): 1
+
+	Land Form
+		Fire (AT DF +): 2
+		Water (AT DF -): 2
+		Earth (AT -): 2
+
+	Map
+		Water (AT DF -): 4 ?
+		Wind (AT +): 10 (ishizu1) or 2 (pegasus2) ?
+Earth
+	Symbol
+		Light (DF +): 1
+		Dark (PP -): 2
+		Earth (PP +): 1
+
+	Land Form
+		Earth (AT DF +): 2
+		Thunder (DF -): 4 / 3 ? or 2
+
+	Map
+		Light (DF -): 2
+		Dark (AT +): 2
+		Water (AT +): 2
+		Wood (AT +): 4
+		Thunder (DF -): 2
+Thunder
+	Symbol
+		Dark (DF +): 1
+		Earth (AT DF -): 2
+		Thunder (AT +): 1
+
+	Land Form
+		Dark (DF +): 2
+		Water (AT +): 2
+		Earth (AT -): 2
+		Thunder (AT DF +): 2
+
+	Map
+		Light (AT DF -): 4
+		Dark (DF +): 4
+		Thunder (AT DF +): 4
+Light
+	Symbol
+		Light (DF +): 1
+		Earth (AT +): 1
+		Thunder (PP -): 2
+
+	Land Form
+		Light (AT DF +): 2
+		Dark (AT -): 2
+		Fire (AT +): 2
+		Thunder (DF -): 2
+
+	Map
+		Light (AT DF +): 4
+		Dark (AT -): 4
+		Thunder (AT DF -): 4
+Dark
+	Symbol
+		Light (PP -): 2
+		Dark (AT +): 1
+		Thunder (AT +): 1
+
+	Land Form
+		Light (AT DF -): 2
+		Dark (AT DF +): 2
+		Wood (DF +): 2 (discrepancy A) possibly 4
+		Thunder (DF -): 2
+
+	Map
+		Light (AT DF -): 4
+		Dark (AT DF +): 4
+		Thunder (DF -): 4 ?
+Wind
+	Symbol
+		Fire (AT +): 1
+		Wind (DF +): 1
+		Wood (DF -): 2
+
+	Land Form
+		Dark (DF +): 2
+		Fire (AT +): 2
+		Water (AT +): 2
+		Wind (AT DF +): 1
+
+	Map
+		Dark (AT +): 4
+		Fire (AT +): 4
+		Water (AT +): 4
+		Wind (AT DF +): 4
+Wood
+	Symbol
+		Fire (AT DF -): 2
+		Water (DF +): 1
+		Wood (AT DF +): 1
+
+	Land Form
+		Fire (AT DF -): 2
+		Wood (AT DF +): 2
+		Thunder (DF -): 2
+
+	Map
+		Light (AT DF -): 4
+		Dark (AT +): 4
+		Fire (DF -): 4
+		Earth (DF +): 4
+		Wood (AT DF +): 4
+		Thunder (DF -): 4
+		
+Discrepancy A:
+	Normal: Kuriboh
+	Abnormal: Summoned Lord Exodia, Gate Guardian

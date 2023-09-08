@@ -1,0 +1,106 @@
+{
+  "joey": {
+    "Light": 16,
+    "Dark": 5,
+    "Wind": 5
+  },
+  "tristan": {
+    "Light": 5,
+    "Dark": 14,
+    "Wood": 6
+  },
+  "duke": {
+    "Light": 20
+  },
+  "tea": {
+    "Light": 10,
+    "Dark": 26,
+    "Wind": 8
+  },
+  "grandpa": {
+    "Dark": 22
+  },
+  "weevil": {
+    "Light": 9,
+    "Dark": 30
+  },
+  "mako": {
+    "Light": 36,
+    "Wind": 10
+  },
+  "rex": {
+    "Light": 20,
+    "Dark": 20
+  },
+  "mai": {
+    "Light": 10,
+    "Dark": 20,
+    "Wind": 15
+  },
+  "mokuba": {
+    "Light": 15,
+    "Dark": 25,
+    "Thunder": 10
+  },
+  "bakura": {
+    "Light": 10,
+    "Dark": 26,
+    "Wind": 20
+  },
+  "keith": {
+    "Light": 10,
+    "Dark": 60
+  },
+  "pegasus-1": {
+    "Light": 60
+  },
+  "odion": {
+    "Light": 50,
+    "Fire": 20,
+    "Earth": 20,
+    "Wind": 30
+  },
+  "marik": {},
+  "shadi-1": {
+    "Light": 50,
+    "Wind": 20
+  },
+  "yami-bakura": {
+    "Dark": 50
+  },
+  "yami-marik-1": {
+    "Dark": 70
+  },
+  "ishizu-1": {
+    "Light": 56,
+    "Dark": 10,
+    "Wind": 50
+  },
+  "kaiba-1": {
+    "Light": 50,
+    "Dark": 60,
+    "Wind": 20
+  },
+  "pegasus-2": {
+    "Light": 55,
+    "Dark": 25,
+    "Water": 15,
+    "Wind": 35
+  },
+  "ishizu-2": {
+    "Light": 40,
+    "Wind": 30
+  },
+  "yami-marik-2": {
+    "Light": 55,
+    "Dark": 40,
+    "Fire": 10
+  },
+  "shadi-2": {
+    "Dark": 60
+  },
+  "kaiba-2": {
+    "Light": 80,
+    "Wind": 30
+  }
+}

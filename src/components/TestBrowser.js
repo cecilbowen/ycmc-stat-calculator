@@ -9,6 +9,7 @@ import {
 
 import DeleteIcon from '@mui/icons-material/Delete';
 import CachedIcon from '@mui/icons-material/Cached';
+import TagFacesIcon from '@mui/icons-material/TagFaces';
 import '../App.css';
 import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
@@ -43,6 +44,7 @@ const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
     const [newFinals, setNewFinals] = useState([0, 0, 0]);
     const [idToDelete, setIdToDelete] = useState(undefined);
     const [idToOverwrite, setIdToOverwrite] = useState(undefined);
+    const [allTestsPassed, setAllTestsPassed] = useState(false);
 
     useEffect(() => {
         const items = JSON.parse(localStorage.getItem('customSets'));
@@ -69,7 +71,7 @@ const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
         }
     }, [sets]);
     useEffect(() => {
-        setNewSetName(`Custom Set #${customSets.length + 1}`);
+        setNewSetName(`Test Set #${sets.length + customSets.length + 1}`);
         for (const set of customSets) {
             set.tests = getTests(set);
         }
@@ -82,17 +84,28 @@ const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
     }, [currentData]);
 
     const getTests = set => {
+        console.log("finfa", set);
         const stats = calculateStats(set);
         return stats.tests;
     };
 
     const reTestAll = () => {
+        let allPass = true;
         for (const set of sets) {
-            set.tests = getTests(set);
+            const tests = getTests(set);
+            if (!tests.all) { allPass = false; }
+            // set.tests = tests;
         }
         for (const set of customSets) {
-            set.tests = getTests(set);
+            const tests = getTests(set);
+            if (!tests.all) { allPass = false; }
+            // set.tests = tests;
         }
+        setAllTestsPassed(allPass);
+
+        // trigger re-rendering
+        setCustomSets([...customSets]);
+        setSets([...sets]);
     };
 
     const handleListItemClick = (event, index, set, load) => {
@@ -100,7 +113,7 @@ const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
 
         if (load) {
             onLoadTest(set);
-            setNewSetName(set.name || `Custom Set #${customSets.length + 1}`);
+            setNewSetName(set.name || `Test Set #${sets.length + customSets.length + 1}`);
             setTimeout(() => setNewFinals(set.final), 300);
         }
     };
@@ -109,7 +122,7 @@ const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
         let tempCustomSets = [...customSets.slice(0)];
         const mostRecent = tempCustomSets.slice(0).sort((a, b) => b.id - a.id)[0];
         const newId = (mostRecent?.id || -1) + 1;
-        const name = newSetName || `Custom Set #${customSets.length + 1}`;
+        const name = newSetName || `Test Set #${sets.length + customSets.length + 1}`;
         const newSet = {
             ...currentData,
             final: newFinals,
@@ -197,6 +210,7 @@ const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
             return PASS_EMOJI;
         }
 
+        console.log("passed, perfect, noChange", passed, perfect, noChange);
         return FAIL_EMOJI;
     };
 
@@ -218,7 +232,7 @@ const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
                 `${emoji(set.tests.passDF, set.tests.perfectDF, set.tests.noChangeDF)}`;
         }
 
-        const displayName = set.name || `Test Set #${index + 1}`;
+        const displayName = `${index + 1}. ${set.name || `Test Set #${index + 1}`}`;
 
         return <ListItem
             key={index}
@@ -350,7 +364,7 @@ const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
             >Overwrite</Button>
             <IconButton aria-label="retest" color="info"
                 title="Re-Run Tests" onClick={reTestAll}>
-                <CachedIcon />
+                {allTestsPassed ? <TagFacesIcon color="success" /> : <CachedIcon />}
             </IconButton>
         </Stack>;
     };
