@@ -492,6 +492,7 @@ const StatTable = ({ compact, dataToLoad, onDataChanged }) => {
                             size="small"
                         />
                     </td>
+                    <td><small><a href="https://github.com/cecilbowen/ycmc-stat-calculator">Source Code</a></small></td>
                 </tr>
                 <tr>
                     <td align="right" className="dataLabel title pd bd info" component="th" scope="row">Land %</td>
