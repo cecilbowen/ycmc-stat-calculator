@@ -16,7 +16,7 @@ import * as Defaults from '../defaults';
 const ArrowUpward = styled.div`
   position: absolute;
   transform: rotate(270deg) translateX(50%) translateY(50%);
-  mask-image: url(/images/rightArrow.svg);
+  mask-image: url(images/rightArrow.svg);
   mask-repeat: no-repeat;
   width: 20px;
   height: 20px;
@@ -27,7 +27,7 @@ const ArrowUpward = styled.div`
 const ArrowDownward = styled.div`
   position: absolute;
   transform: rotate(90deg) translateX(50%) translateY(50%);
-  mask-image: url(/images/rightArrow.svg);
+  mask-image: url(images/rightArrow.svg);
   mask-repeat: no-repeat;
   width: 20px;
   height: 20px;
@@ -40,7 +40,7 @@ const ArrowUpwardBorder = styled.div`
   transform: rotate(270deg) translateX(50%) translateY(50%);
   width: 26px;
   height: 26px;
-  background-image: url(/images/rightArrow.svg);
+  background-image: url(images/rightArrow.svg);
   background-repeat: no-repeat;
   top: 38.5%;
   left: 50%;
@@ -51,7 +51,7 @@ const ArrowDownwardBorder = styled.div`
   transform: rotate(90deg) translateX(50%) translateY(50%);
   width: 26px;
   height: 26px;
-  background-image: url(/images/rightArrow.svg);
+  background-image: url(images/rightArrow.svg);
   background-repeat: no-repeat;
   top: 58%;
   left: 50%;
@@ -207,7 +207,7 @@ const StatTable = ({ compact, dataToLoad, onDataChanged }) => {
                         {attributes.map((name, key) => {
                             const fileName = key === 0 ? "None" : name;
 
-                            return <img key={key} src={`/images/attributes/${fileName}.png`}
+                            return <img key={key} src={`images/attributes/${fileName}.png`}
                                 title={name}
                                 style={{ width: '30px', cursor: 'pointer', verticalAlign: 'middle', margin: '4px' }}
                                 onClick={() => chooseAttribute(name)} />;
@@ -281,7 +281,7 @@ const StatTable = ({ compact, dataToLoad, onDataChanged }) => {
 
     const renderAttributeCell = (attributeName, index, cls, main) => {
         attributeName = attributeName ? attributeName : 'None';
-        const src = `/images/attributes/${main ? monsterAttribute || "None" : attributeName}.png`;
+        const src = `images/attributes/${main ? monsterAttribute || "None" : attributeName}.png`;
 
         cls = main ? "info2 bd-tr bd-br" : cls;
         return <td key={index} className={cls} title={attributeName}>

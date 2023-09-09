@@ -250,7 +250,7 @@ const TestBrowser = ({ compact, currentData, onLoadTest }) => {
         >
             <ListItemIcon>
                 <img
-                    src={`/images/attributes/${set.attribute}.png`}
+                    src={`images/attributes/${set.attribute}.png`}
                     style={{ width: '30px' }}
                 />
             </ListItemIcon>
