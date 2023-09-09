@@ -63,7 +63,7 @@ const CapitalTD = styled.td`
 
 const CAN_EDIT_MODS = false;
 
-const StatTable = ({ compact, onCalculate, dataToLoad, onDataChanged }) => {
+const StatTable = ({ compact, dataToLoad, onDataChanged }) => {
     const [symbolAE, setSymbolAE] = useState(100);
     const [landAE, setLandAE] = useState(93);
     const [mapAE, setMapAE] = useState(108);
@@ -113,7 +113,6 @@ const StatTable = ({ compact, onCalculate, dataToLoad, onDataChanged }) => {
         setFinalPP(stats.pp);
         setFinalAT(stats.at);
         setFinalDF(stats.df);
-        onCalculate(stats);
         onDataChanged(data);
     }, [
         uiAttributes,
@@ -582,7 +581,6 @@ const StatTable = ({ compact, onCalculate, dataToLoad, onDataChanged }) => {
     </Paper>;
 };
 StatTable.propTypes = {
-    onCalculate: PropTypes.func.isRequired,
     dataToLoad: PropTypes.object,
     onDataChanged: PropTypes.func,
     compact: PropTypes.bool

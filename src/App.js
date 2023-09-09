@@ -9,9 +9,6 @@ import StatTable from './components/StatTable';
 import TestBrowser from './components/TestBrowser';
 
 const App = () => {
-  const [finalStats, setFinalStats] = useState({
-    pp: 100, at: 100, df: 100
-  });
   const [testToLoad, setTestToLoad] = useState(undefined);
   const [currentData, setCurrentData] = useState(undefined);
   const [compact, setCompact] = useState(true);
@@ -22,10 +19,6 @@ const App = () => {
     }
   }, [testToLoad]);
 
-  const updateFinals = stats => {
-    setFinalStats(stats);
-  };
-
   const loadTest = testData => {
     setTestToLoad(testData);
   };
@@ -33,8 +26,8 @@ const App = () => {
   return (
     <div className="App">
       <Stack direction={compact ? "column" : "row"}>
-        <StatTable onCalculate={updateFinals} dataToLoad={testToLoad} onDataChanged={setCurrentData} compact={compact} />
-        <TestBrowser onLoadTest={loadTest} currentData={currentData} finalStats={finalStats} compact={compact} />
+        <StatTable dataToLoad={testToLoad} onDataChanged={setCurrentData} compact={compact} />
+        <TestBrowser onLoadTest={loadTest} currentData={currentData} compact={compact} />
       </Stack>
       <Fab variant="extended" size="small"
         sx={compact ? { position: 'absolute', bottom: '1em', left: '1em' } : {}}

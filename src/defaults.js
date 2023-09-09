@@ -1,3 +1,7 @@
+/*
+Meaning symbol has at max 1 attribute, land has a max of 3 attributes (per space),
+and the map has at max 4 attributes (pegasus-2 is the only one with 4)
+*/
 export const MAX = {
     SYMBOL: 1, LAND: 3, MAP: 4
 };

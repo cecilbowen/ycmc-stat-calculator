@@ -3,7 +3,7 @@ import {
     TextField,
     Paper, InputAdornment,
     IconButton, List,
-    ListItemIcon, ListItemText, Divider, ListItem,
+    ListItemIcon, ListItemText, ListItem,
     Stack, Button, ListSubheader
 } from '@mui/material';
 
@@ -36,12 +36,13 @@ const NO_CHANGE_EMOJI = '➖';
 const PASS_EMOJI = '☑️';
 const FAIL_EMOJI = '❌';
 
-const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
+const TestBrowser = ({ compact, currentData, onLoadTest }) => {
     const [selectedIndex, setSelectedIndex] = useState(0);
     const [sets, setSets] = useState([...TEST_SET_1]);
     const [customSets, setCustomSets] = useState([]);
     const [newSetName, setNewSetName] = useState("");
-    const [newFinals, setNewFinals] = useState([0, 0, 0]);
+    const [expectedValues, setExpectedValues] = useState([0, 0, 0]);
+    const [calculatedValues, setCalculatedValues] = useState({ pp: 0, at: 0, df: 0 });
     const [idToDelete, setIdToDelete] = useState(undefined);
     const [idToOverwrite, setIdToOverwrite] = useState(undefined);
     const [allTestsPassed, setAllTestsPassed] = useState(false);
@@ -66,6 +67,12 @@ const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
     }, []);
 
     useEffect(() => {
+        if (currentData) {
+            setCalculatedValues(calculateStats(currentData));
+        }
+    }, [currentData]);
+
+    useEffect(() => {
         for (const set of sets) {
             set.tests = getTests(set);
         }
@@ -77,14 +84,7 @@ const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
         }
     }, [customSets]);
 
-    useEffect(() => {
-        if (currentData) {
-            // setNewFinals([currentData.base[0], currentData.base[1], currentData.base[2]]);
-        }
-    }, [currentData]);
-
     const getTests = set => {
-        console.log("finfa", set);
         const stats = calculateStats(set);
         return stats.tests;
     };
@@ -114,7 +114,7 @@ const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
         if (load) {
             onLoadTest(set);
             setNewSetName(set.name || `Test Set #${sets.length + customSets.length + 1}`);
-            setTimeout(() => setNewFinals(set.final), 300);
+            setTimeout(() => setExpectedValues(set.final), 300);
         }
     };
 
@@ -125,10 +125,9 @@ const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
         const name = newSetName || `Test Set #${sets.length + customSets.length + 1}`;
         const newSet = {
             ...currentData,
-            final: newFinals,
+            final: expectedValues,
             name
         };
-        console.log("fuck", currentData);
 
         if (overwrite) {
             closeModal();
@@ -210,7 +209,6 @@ const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
             return PASS_EMOJI;
         }
 
-        console.log("passed, perfect, noChange", passed, perfect, noChange);
         return FAIL_EMOJI;
     };
 
@@ -273,25 +271,24 @@ const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
 
     const renderFinalStack = direction => {
         const textStyle = compact ? { marginBottom: '1em' } : { marginRight: '1em' };
-        const finale = finalStats || { pp: 0, at: 0, df: 0 };
-        const gotA = Math.round(finale.pp);
-        const gotB = Math.round(finale.at);
-        const gotC = Math.round(finale.df);
+        const gotA = Math.round(calculatedValues.pp);
+        const gotB = Math.round(calculatedValues.at);
+        const gotC = Math.round(calculatedValues.df);
 
         return <Stack direction={direction} sx={{ margin: '1em', width: compact ? '9em' : 'initial' }}>
             <FixedTextField
                 type="number"
                 variant="outlined"
                 label="Expected - (Actual)"
-                value={newFinals[0]}
-                onChange={ev => setNewFinals([parseInt(ev.target.value, 10), newFinals[1], newFinals[2]])}
+                value={expectedValues[0]}
+                onChange={ev => setExpectedValues([parseInt(ev.target.value, 10), expectedValues[1], expectedValues[2]])}
                 size="small"
                 sx={textStyle}
                 InputProps={{
                     // endAdornment: <InputAdornment sx={diffStyle(diffA)} position="end">{signA}{diffA}</InputAdornment>,
                     startAdornment: <InputAdornment className="adornLabel"
                         position="start">PP:</InputAdornment>,
-                    endAdornment: <InputAdornment className={`adorn ${gotA === newFinals[0] ? 'correct' : 'wrong'}`}
+                    endAdornment: <InputAdornment className={`adorn ${gotA === expectedValues[0] ? 'correct' : 'wrong'}`}
                         position="end">{`(${gotA})`}</InputAdornment>,
                     // tabIndex: 7
                 }}
@@ -300,14 +297,14 @@ const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
                 type="number"
                 variant="outlined"
                 label="Expected - (Actual)"
-                value={newFinals[1]}
-                onChange={ev => setNewFinals([newFinals[0], parseInt(ev.target.value, 10), newFinals[2]])}
+                value={expectedValues[1]}
+                onChange={ev => setExpectedValues([expectedValues[0], parseInt(ev.target.value, 10), expectedValues[2]])}
                 size="small"
                 sx={textStyle}
                 InputProps={{
                     startAdornment: <InputAdornment className="adornLabel"
                         position="start">AT:</InputAdornment>,
-                    endAdornment: <InputAdornment className={`adorn ${gotB === newFinals[1] ? 'correct' : 'wrong'}`}
+                    endAdornment: <InputAdornment className={`adorn ${gotB === expectedValues[1] ? 'correct' : 'wrong'}`}
                         position="end">{`(${gotB})`}</InputAdornment>,
                     // tabIndex: 8
                 }}
@@ -316,14 +313,14 @@ const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
                 type="number"
                 variant="outlined"
                 label="Expected - (Actual)"
-                value={newFinals[2]}
-                onChange={ev => setNewFinals([newFinals[0], newFinals[1], parseInt(ev.target.value, 10)])}
+                value={expectedValues[2]}
+                onChange={ev => setExpectedValues([expectedValues[0], expectedValues[1], parseInt(ev.target.value, 10)])}
                 size="small"
                 sx={textStyle}
                 InputProps={{
                     startAdornment: <InputAdornment className="adornLabel"
                         position="start">DF:</InputAdornment>,
-                    endAdornment: <InputAdornment className={`adorn ${gotC === newFinals[2] ? 'correct' : 'wrong'}`}
+                    endAdornment: <InputAdornment className={`adorn ${gotC === expectedValues[2] ? 'correct' : 'wrong'}`}
                         position="end">{`(${gotC})`}</InputAdornment>,
                     // tabIndex: 9
                 }}
@@ -348,7 +345,7 @@ const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
                 type="button"
                 variant="outlined"
                 onClick={() => saveNewSet()}
-                disabled={newFinals[0] + newFinals[1] + newFinals[2] < 3}
+                disabled={expectedValues[0] + expectedValues[1] + expectedValues[2] < 3}
                 sx={{ cursor: 'pointer', ...innerStyle }}
                 size="small"
             >Save New</Button>
@@ -356,7 +353,7 @@ const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
                 type="button"
                 variant="outlined"
                 onClick={() => showOverwriteModal()}
-                disabled={newFinals[0] + newFinals[1] + newFinals[2] < 3 ||
+                disabled={expectedValues[0] + expectedValues[1] + expectedValues[2] < 3 ||
                     selectedIndex === undefined || selectedIndex < sets.length}
                 sx={{ cursor: 'pointer', ...innerStyle }}
                 size="small"
@@ -403,7 +400,6 @@ const TestBrowser = ({ compact, currentData, finalStats, onLoadTest }) => {
 TestBrowser.propTypes = {
     onLoadTest: PropTypes.func.isRequired,
     currentData: PropTypes.object,
-    compact: PropTypes.bool,
-    finalStats: PropTypes.object
+    compact: PropTypes.bool
 };
 export default TestBrowser;

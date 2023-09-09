@@ -5,23 +5,6 @@ import ATTRIBUTE_CHART_MAP from './data/attributeMatchups_map_effect-monster.jso
 import ATTRIBUTE_BOOSTS from './data/attributeBoosts.json';
 import * as Defaults from './defaults';
 
-/*
-    test data template (old)
-    {
-        "attribute": "xxx",
-        "aeRate": [xxx, xxx, xxx],
-        "base": [xxx, xxx, xxx],
-        "final": [xxx, xxx, xxx],
-        "attributes": ["xxx", "xxx", "xxx", "xxx", "xxx", "xxx", "xxx"],
-        "strengths": [0, 0, 0, 0, 0, 0, 0],
-        "grid": [
-            0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0
-        ]
-    },
-*/
-
 export const getAttributeTemplate = () => {
     const s = Array(Defaults.MAX.SYMBOL).fill("symbol");
     const l = Array(Defaults.MAX.LAND).fill("landForm");
@@ -35,7 +18,12 @@ export const calculateStats = data => {
     const C = 16;
     const leniency = 3; // will pass tests if values are within this much of expected values
 
-    const grid = data.grid || generateGridFromAttributes(data.attribute, data.attributes);
+    const ae = {
+        symbol: data.aeRate[0],
+        landForm: data.aeRate[1],
+        map: data.aeRate[2]
+    };
+    const grid = data.grid || generateGridFromAttributes(data.attribute, data.attributes, [ae.symbol, ae.landForm, ae.map]);
     const atts = data.attributes;
     const flatAttributes = [
         [atts.symbol][0],
@@ -43,12 +31,6 @@ export const calculateStats = data => {
         atts.map[0], atts.map[1], atts.map[2], atts.map[3]
     ];
     const template = getAttributeTemplate();
-    const indexTemplate = [0, 0, 1, 2, 0, 1, 2, 3];
-    const ae = {
-        symbol: data.aeRate[0],
-        landForm: data.aeRate[1],
-        map: data.aeRate[2]
-    };
     const base = {
         pp: data.base[0],
         at: data.base[1],
@@ -60,11 +42,11 @@ export const calculateStats = data => {
     const dfSum = [base.df];
     for (let i = 0; i < flatAttributes.length; i++) {
         const attr = flatAttributes[i];
-        const t = template[i];
+        const column = template[i]; // symbol, landForm or map
 
-        ppSum.push(getStatModMap(ae[t], attr, data.attribute, base.pp, grid[A + i], t, "pp"));
-        atSum.push(getStatModMap(ae[t], attr, data.attribute, base.at, grid[B + i], t, "at"));
-        dfSum.push(getStatModMap(ae[t], attr, data.attribute, base.df, grid[C + i], t, "df"));
+        ppSum.push(getStatModMap(ae[column], attr, data.attribute, base.pp, grid[A + i], column));
+        atSum.push(getStatModMap(ae[column], attr, data.attribute, base.at, grid[B + i], column));
+        dfSum.push(getStatModMap(ae[column], attr, data.attribute, base.df, grid[C + i], column));
     }
 
     // floor() if decrease, ceil() if increase
@@ -94,10 +76,6 @@ export const calculateStats = data => {
             perfectPP, perfectAT, perfectDF,
             noChangePP, noChangeAT, noChangeDF
         };
-
-        if (!passDF) {
-            console.log(".... DF, eDF", df, data.final[2]);
-        }
     }
 
     return {
@@ -111,9 +89,8 @@ export const calculateStats = data => {
     base - actual base stat (pp, at, df)
     type - 1 for buff, -1 for debuff, 0 for no change
     column - "symbol", "landForm" or "map"
-    statName - "pp", "at" or "df"
 */
-export const getStatModMap = (ae, attribute, monsterAttribute, base, type = 1, column, statName) => {
+export const getStatModMap = (ae, attribute, monsterAttribute, base, type = 1, column) => {
     if (!attribute) { return 0; }
     const attributeStrength = attribute.strength;
     const attributeName = attribute.attribute;
@@ -162,34 +139,6 @@ export const getStatModMap = (ae, attribute, monsterAttribute, base, type = 1, c
     percent *= base;
     percent /= mod;
     return percent * type;
-};
-
-export const getStatMod = (ae, attribute, base, type = 1, mod = 1) => {
-    if (!attribute) { return 0; }
-    const attributeStrength = attribute.strength;
-    const attributeName = attribute.attribute;
-    if (type === 0 || attributeStrength === 0 || !attributeName) { return 0; } // no stat change
-    // const debuff = type === -1; // 1 for buff, -1 for debuff, 0 for no change
-
-    const percent = ae / 100 * attributeStrength;
-    // let mod = 1;
-
-    // if (debuff) {
-    // mod = 2;
-    // }
-
-    // const basePercent = percent / mod;
-    const basePercent = percent;
-    // const baseMod = (basePercent / 100) * base * type;
-    const baseMod = basePercent / 100 * base * type / mod;
-    // const finalStat = base + baseMod;
-
-    // if (debuff) {
-    // return Math.floor(baseMod);
-    // }
-
-    // return Math.ceil(baseMod);
-    return baseMod;
 };
 
 // returns { pp, at, df } where each value is either -1 for a decrease, 0 for no change, or 1 for a boost

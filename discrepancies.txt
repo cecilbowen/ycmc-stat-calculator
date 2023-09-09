@@ -21,8 +21,8 @@ wood effect on dark:
 		ishizu-1 (50)
 	]
 	speaking of, fire reaper bein a bitch not followin the standard
-		fire reaper LOSES AT on wind on pegasus2 map, weird
-		fire reaper mod is 6 on ishizu1
+		fire reaper LOSES AT on wind on pegasus-2 map, weird
+		fire reaper mod is 6 on ishizu-1
 	fire gains AT on [kaiba-1, ishizu-2, pegasus-2] (mod 2)
 	fire loses AT on [ishizu-1] (mod 10), fire reaper discrep
 	
