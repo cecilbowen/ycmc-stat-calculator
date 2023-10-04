@@ -4,7 +4,6 @@ import {
 } from '@mui/material';
 import { ZoomOutMap, ZoomInMap } from '@mui/icons-material';
 import './App.css';
-import styled from '@emotion/styled';
 import StatTable from './components/StatTable';
 import TestBrowser from './components/TestBrowser';
 
